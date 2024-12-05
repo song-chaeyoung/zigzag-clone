@@ -1,0 +1,190 @@
+{
+  "slide": [
+    {
+      "id": 0,
+      "img": "/slide0.webp",
+      "title1": "지그재그 단독",
+      "title2": "겨울 에센셜 아이템",
+      "desc": "신상부터 스테디까지 직진배송으로 빠르게"
+    },
+    {
+      "id": 1,
+      "img": "/slide1.webp",
+      "title1": "연말에 뭐 입지?",
+      "title2": "파티룩부터 데일리룩까지",
+      "desc": "쇼핑몰 20% 쿠폰받고 쇼핑하기"
+    },
+    {
+      "id": 2,
+      "img": "/slide2.webp"
+    },
+    {
+      "id": 3,
+      "img": "/slide3.webp",
+      "title1": "입기 편한 데일리룩",
+      "title2": "무아무아 내일 받아보기",
+      "desc": "최대 10% 할인 + 15% 쿠폰"
+    },
+    {
+      "id": 4,
+      "img": "/slide4.webp",
+      "title1": "이번주 기온 뚝!",
+      "title2": "겨울 에센셜 아이템",
+      "desc": "신상부터 스테디까지 직진배송으로 빠르게"
+    },
+    {
+      "id": 5,
+      "img": "/slide5.webp",
+      "title1": "여행비 지원받고",
+      "title2": "올겨울 대만으로 떠나요",
+      "desc": "여행룩&여행템 특가, 에드모어·데일리쥬·로빈유"
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "img": "https://cf.product-image.s.zigzag.kr/original/c/10/010/611/100106117-2130541633728301915.gif?width=720&height=720&quality=80&format=jpeg",
+      "title": "숏/미들- 천연소가죽 3cm 폭신빵빵~털안감 스웨이드 커플 어그 미들 & 숏 양털부츠 225~270사이즈까지 주문가능 #겨울",
+      "company": "슈슐랭",
+      "price": 26900,
+      "coupon": true,
+      "new": true,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 1,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/10/31/202_202410311547520321_53474.gif?width=400&height=400&quality=80&format=jpeg",
+      "title": "[단독] [+탈부착패딩내피/컬러추가!][자체제작/카피주의][지그재그1등🏆][누적3만장🔥][직진배송][MNLB] 알파카 히든 핸드메이드 롱 코트",
+      "price": 159460,
+      "coupon": true,
+      "new": true,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 2,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/11/18/25938_202411181047230113_85775.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "[앨리스펑크 PICK] 파스텔 푸퍼_SPJPE4TG01",
+      "price": 47180,
+      "coupon": true,
+      "new": true,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 3,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/10/2/11864_202410020837500741_75697.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "[🖤블프특가/연우,김지영PICK/연말룩❄/크리스마스🌲/겨울신상☃/누적3만🏆]스탠카라 무스탕_MIWJLEV1PC",
+      "price": 95970,
+      "coupon": true,
+      "new": true,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 4,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/9/23/5875_202409231739130758_96638.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "[앵콜블프][+기모🔥][부츠컷데님1위🏆누적30만장][made]세인트부츠컷데님 - 7color (숏,미들,롱/s-l)",
+      "price": 26600,
+      "coupon": true,
+      "new": false,
+      "size": ["중청", "애쉬옐로우", "진청옐로우", "블랙옐로우"]
+    },
+    {
+      "id": 5,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/11/7/16965_202411071840400588_88271.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "폴로 랄프로렌 베이직 가디건 걸즈",
+      "price": 80820,
+      "coupon": true,
+      "new": false,
+      "size": ["화이트", "블랙", "연핑크", "플라워 퍼플"]
+    },
+    {
+      "id": 6,
+      "img": "https://cf.product-image.s.zigzag.kr/original/c/13/141/099/131410997-6758186076405476327.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "[단독] [애프터블프🖤/+뉴ver/17컬러/브이넥/연말룩/made] 시오 니트 - 17 Color (비스코스/래글런/긴팔/레드/빨간니트/출근룩/오피스룩/하객룩/드뮤어룩/연말룩/크리스마스/파티)",
+      "price": 25760,
+      "coupon": true,
+      "new": false,
+      "size": ["그레이", "블랙", "브라운", "베이지", "버건디", "화이트"]
+    },
+    {
+      "id": 7,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2022/12/9/3837_202212090355450387_98710.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "[❤️주문폭주❤️ 리뷰증명🔥후끈후끈 데일리템] RECLOW 울터치 니트 머플러 목도리 13종 선물 코디 커플 추천 폭닥폭닥 쿨톤 웜톤스",
+      "price": 17920,
+      "coupon": true,
+      "new": true,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 8,
+      "img": "https://cf.product-image.s.zigzag.kr/original/c/10/067/877/100678775-4008639684570076896.gif?width=400&height=400&quality=80&format=jpeg",
+      "title": "[✨브랜드공장✨/8천장돌파/2사이즈][made] Be Label 리얼 프리미엄 폭스퍼 벨티드 롱 패딩 신상/베스트/겨울여성/데일리/벨트패딩/폭스퍼패딩/롱패딩/오리털패딩/덕다운/연말/덕다운100/연말룩",
+      "price": 263550,
+      "coupon": true,
+      "new": true,
+      "size": ["크림베이지", "블랙"]
+    },
+    {
+      "id": 9,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/11/27/12151_202411271636390619_91302.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "(울72%)[정소민,지예은PICK]벨티드 맥코트_RMJHE4VR01",
+      "price": 139300,
+      "coupon": true,
+      "new": true,
+      "size": ["다크그레이", "블랙", "라이트카키"]
+    },
+    {
+      "id": 10,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/9/26/9512_202409261625470060_94969.gif?width=400&height=400&quality=80&format=jpeg",
+      "title": "[단독] [기모추가/MNQ MADE] 코토 투웨이 트레이닝 팬츠(공용)",
+      "price": 26600,
+      "coupon": true,
+      "new": false,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 11,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/11/13/10332_202411130913580368_85812.gif?width=400&height=400&quality=80&format=jpeg",
+      "title": "[기모+🔥] 베릴 트윌 코튼팬츠 (울코튼,일자,와이드,벨트고리)",
+      "price": 28570,
+      "coupon": true,
+      "new": true,
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 12,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/11/11/3887_202411111613450352_28116.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "[직잭 단독][스웨이드ver추가] 클레어호보백 GK230K",
+      "price": 43950,
+      "coupon": true,
+      "new": true,
+      "size": ["블랙", "크림화이트", "모카브라운", "스웨이드다크브라운"]
+    },
+    {
+      "id": 13,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/3/10/11864_202403101709180811_52335.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "[🖤블프특가/김지영,연우PICK/🏆누적3만]언발숄더 스퀘어넥 니트 풀오버 MIWKAEV33T",
+      "price": 34800,
+      "coupon": false,
+      "new": false,
+      "size": ["블랙", "라이트핑크", "아이보리"]
+    },
+    {
+      "id": 14,
+      "img": "https://cf.product-image.s.zigzag.kr/original/d/2024/9/20/14365_202409201621530952_73376.jpeg?width=400&height=400&quality=80&format=webp",
+      "title": "스킨 레이어 핏 파운데이션 (5color) 🚀직진배송🚀",
+      "price": 17900,
+      "coupon": true,
+      "new": false,
+      "size": ["AT.19", "AT.21", "AT.22", "AT.23"]
+    },
+    {
+      "id": 15,
+      "img": "https://cf.product-image.s.zigzag.kr/original/c/15/382/246/153822460-9179080181508423978.gif?width=400&height=400&quality=80&format=jpeg",
+      "title": "gentle short mustang (2color) 카라탈부착가능! 주문폭주",
+      "price": 113000,
+      "coupon": true,
+      "new": false,
+      "size": ["브라운", "블랙"]
+    }
+  ]
+}
