@@ -42,9 +42,11 @@ const Slide = () => {
   const [slideData, setSlideData] = useState([]);
 
   const fetchSlideData = async () => {
-    const data = await fetch("./db.json");
+    const data = await fetch(
+      "https://my-json-server.typicode.com/song-chaeyoung/zigzag-clone/slide"
+    );
     const json = await data.json();
-    setSlideData(json.slide);
+    setSlideData(json);
   };
 
   useEffect(() => {
