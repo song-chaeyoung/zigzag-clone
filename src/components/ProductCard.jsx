@@ -40,7 +40,7 @@ const ProductCard = ({ item }) => {
 
   const nevigate = useNavigate();
   const showDetail = () => {
-    nevigate(`product/${item.id}`);
+    nevigate(`/product/${item.id}`);
   };
 
   return (

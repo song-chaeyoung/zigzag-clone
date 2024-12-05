@@ -4,6 +4,19 @@ import ProductCard from "../components/ProductCard";
 import { Col, Container, Row } from "react-bootstrap";
 import { productAction } from "../redux/actions/productAction";
 import { useDispatch, useSelector } from "react-redux";
+import styled from "styled-components";
+import { FaRegSadTear } from "react-icons/fa";
+
+const NoItemContainer = styled.div`
+  text-align: center;
+  margin: 3rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  color: #666;
+`;
 
 const ProductAll = () => {
   const [query, setQuery] = useSearchParams();
@@ -13,16 +26,19 @@ const ProductAll = () => {
   const getProducts = async () => {
     const searchQuery = query.get("q") || "";
     dispatch(productAction.getProduct(searchQuery));
-
-    // const url = `https://my-json-server.typicode.com/song-chaeyoung/musinsa-mall/products?q=${searchQuery}`;
-    // const response = await fetch(url);
-    // const data = await response.json();
-    // setProductList(data);
   };
 
   useEffect(() => {
     getProducts();
   }, [query]);
+
+  if (productList.length === 0)
+    return (
+      <NoItemContainer>
+        <FaRegSadTear />
+        상품이 없습니다
+      </NoItemContainer>
+    );
 
   return (
     <Container>

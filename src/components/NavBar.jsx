@@ -115,7 +115,6 @@ const NavBar = ({ authenticate, setAuthenticate }) => {
       <Logo>
         <Link to={"/"}>
           <img
-            // src="https://www.shinailbo.co.kr/news/photo/202106/1419496_624961_3416.jpg"
             src="https://m.ddaily.co.kr/photos/2021/04/14/202104148395211195_l.png"
             alt="musinsa"
           />

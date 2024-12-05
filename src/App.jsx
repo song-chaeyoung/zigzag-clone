@@ -9,6 +9,7 @@ import ProductAll from "./pages/ProductAll";
 import Login from "./pages/Login";
 import PrivateRoute from "./routes/PrivateRoute";
 import Home from "./pages/Home";
+import SearchResult from "./pages/SearchResult";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -70,6 +71,10 @@ const App = () => {
         {
           path: "product/:id",
           element: <PrivateRoute authenticate={authenticate} />,
+        },
+        {
+          path: "search",
+          element: <SearchResult authenticate={authenticate} />,
         },
       ],
     },

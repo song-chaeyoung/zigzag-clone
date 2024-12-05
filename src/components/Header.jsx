@@ -23,6 +23,17 @@ const Container = styled.header`
     align-items: center;
     gap: 0.5rem;
 
+    > input {
+      border: none;
+      border-bottom: 1.5px solid #666;
+      padding: 0.25rem;
+      width: 100px;
+      margin-right: 0.5rem;
+      &:focus {
+        outline: none;
+      }
+    }
+
     svg {
       cursor: pointer;
     }
@@ -31,6 +42,11 @@ const Container = styled.header`
 
 const Header = ({ authenticate, setAuthenticate }) => {
   const navigate = useNavigate();
+
+  const onCheckEnter = (e) => {
+    if (e.key === "Enter") navigate(`/search?q=${e.target.value}`);
+  };
+
   return (
     <Container>
       <div className="header_left">
@@ -39,7 +55,15 @@ const Header = ({ authenticate, setAuthenticate }) => {
         </Link>
       </div>
       <div className="header_right">
-        <IoSearchOutline size={24} />
+        <label htmlFor="search">
+          <IoSearchOutline size={24} />
+        </label>
+        <input
+          id="search"
+          type="text"
+          onKeyUp={onCheckEnter}
+          placeholder="검색"
+        />
         {authenticate ? (
           <IoLogOutOutline size={24} onClick={() => setAuthenticate(false)} />
         ) : (
